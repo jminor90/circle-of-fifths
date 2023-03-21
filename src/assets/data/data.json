@@ -1,0 +1,60 @@
+{
+  "major": [
+    {
+      "key": "C",
+      "accidentals": 0,
+      "isSharp": false,
+      "isFlat": false,
+      "relativeMinor": "A"
+    },
+    {
+      "key": "G",
+      "accidentals": 1,
+      "isSharp": true,
+      "isFlat": false,
+      "relativeMinor": "E"
+    },
+    {
+      "key": "D",
+      "accidentals": 2,
+      "isSharp": true,
+      "isFlat": false,
+      "relativeMinor": "B"
+    },
+    {
+      "key": "A",
+      "accidentals": 3,
+      "isSharp": true,
+      "isFlat": false,
+      "relativeMinor": "F#"
+    },
+    {
+      "key": "E",
+      "accidentals": 4,
+      "isSharp": true,
+      "isFlat": false,
+      "relativeMinor": "C#"
+    },
+    {
+      "key": "B",
+      "accidentals": 5,
+      "isSharp": true,
+      "isFlat": false,
+      "relativeMinor": "G#"
+    },
+    {
+      "key": "F#",
+      "accidentals": 6,
+      "isSharp": true,
+      "isFlat": false,
+      "relativeMinor": "D#"
+    },
+    {
+      "key": "C#",
+      "accidentals": 7,
+      "isSharp": true,
+      "isFlat": false,
+      "relativeMinor": "A#"
+    }
+  ]
+}
