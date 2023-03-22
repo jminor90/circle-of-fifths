@@ -1,6 +1,12 @@
 import data from '../assets/data/data.json'
+import scaleBuilder from '../utils/scaleBuilder'
+
 
 export default function C_Page() {
+
+
+
+
   console.log(data)
 
   const isSharp = data.major[0].isSharp
@@ -19,6 +25,11 @@ export default function C_Page() {
   }
 
   console.log(isAcc)
+
+  let key = data.major[0].key
+  let accidentals = data.major[0].accidentals
+
+  scaleBuilder(key, accidentals)
 
   return (
     <>

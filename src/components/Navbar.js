@@ -24,10 +24,17 @@ export default function Navbar() {
         NavLink 3 content
       </Nav.Link>
     </Nav.Item> */}
-    <NavDropdown title="Dropdown" id="nav-dropdown">
-      <NavDropdown.Item href="/A">A</NavDropdown.Item>
-      <NavDropdown.Item href="/B">B</NavDropdown.Item>
+    <NavDropdown title="Major Keys" id="nav-dropdown">
+      {/* <NavDropdown.Item href="/A">A</NavDropdown.Item>
+      <NavDropdown.Item href="/B">B</NavDropdown.Item> */}
       <NavDropdown.Item href="/C">C</NavDropdown.Item>
+      <NavDropdown.Item href="/GMajor">G Major</NavDropdown.Item>
+      <NavDropdown.Item href="/DMajor">D Major</NavDropdown.Item>
+      <NavDropdown.Item href="/AMajor">A Major</NavDropdown.Item>
+      <NavDropdown.Item href="/EMajor">E Major</NavDropdown.Item>
+      <NavDropdown.Item href="/BMajor">B Major</NavDropdown.Item>
+      <NavDropdown.Item href="/FsMajor">F# Major</NavDropdown.Item>
+      <NavDropdown.Item href="/CsMajor">C# Major</NavDropdown.Item>
       <NavDropdown.Divider />
       <NavDropdown.Item eventKey="Separated link">Separated link</NavDropdown.Item>
     </NavDropdown>

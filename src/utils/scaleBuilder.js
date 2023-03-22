@@ -1,21 +1,22 @@
 
-function scaleBuilder (keyVar, accNum) {
+export default function scaleBuilder (keyVar, accNum) {
   // Takes in the Key and removes # or b from it so we can build a scale
   var key = keyVar;
   key = key.replace(/[^A-Z\.]+/g, "");
 
+  console.log("The Key Given...")
   console.log(key)
 
   //All scales are alphabetical; this loop will start building a scale starting with the Key given and loop around to give 7 notes in scale order
   const list = ["A", "B", "C", "D", "E", "F", "G"];
   let i = list.indexOf(key);
-  newList = [];
+  let newList = [];
   for (let counter = 0; counter < 7; ++counter) {
     newList.push(list[i]);
     // console.log(`${list[i]}`);
     i = (i + 1) % list.length;
   }
-  console.log("Hey")
+  console.log("newList Scale before edit")
   console.log(newList)
 
   // Order of sharps will always remain the same, this takes in how many sharps given for that scale
@@ -30,8 +31,14 @@ function scaleBuilder (keyVar, accNum) {
     newList.splice(newList.indexOf(result[i].replace(/[^A-Z\.]+/g, "")),1,result[i])
   }
   
+  console.log("Result/ Sharps/Flats")
   console.log(result)
+  console.log("newList Scale after edit")
   console.log(newList)
+
+  return(
+    newList
+  )
 }
 
-scaleBuilder("G", 1)
+// scaleBuilder("G", 1)
