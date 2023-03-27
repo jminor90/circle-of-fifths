@@ -38,6 +38,10 @@ export default function Navbar() {
       <NavDropdown.Divider />
       <NavDropdown.Item eventKey="Separated link">Separated link</NavDropdown.Item>
     </NavDropdown>
+    <NavDropdown title="Minor Keys" id="nav-dropdown">
+      <NavDropdown.Item href="/AMinor">A Minor</NavDropdown.Item>
+      <NavDropdown.Item href="/EMinor">E Minor</NavDropdown.Item>
+    </NavDropdown>
   </Nav>
 
 )
