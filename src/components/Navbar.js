@@ -27,7 +27,7 @@ export default function Navbar() {
     <NavDropdown title="Major Keys" id="nav-dropdown">
       {/* <NavDropdown.Item href="/A">A</NavDropdown.Item>
       <NavDropdown.Item href="/B">B</NavDropdown.Item> */}
-      <NavDropdown.Item href="/C">C</NavDropdown.Item>
+      <NavDropdown.Item href="/CMajor">C Major</NavDropdown.Item>
       <NavDropdown.Item href="/GMajor">G Major</NavDropdown.Item>
       <NavDropdown.Item href="/DMajor">D Major</NavDropdown.Item>
       <NavDropdown.Item href="/AMajor">A Major</NavDropdown.Item>
@@ -35,9 +35,24 @@ export default function Navbar() {
       <NavDropdown.Item href="/BMajor">B Major</NavDropdown.Item>
       <NavDropdown.Item href="/FsMajor">F# Major</NavDropdown.Item>
       <NavDropdown.Item href="/CsMajor">C# Major</NavDropdown.Item>
-      <NavDropdown.Divider />
-      <NavDropdown.Item eventKey="Separated link">Separated link</NavDropdown.Item>
+      <NavDropdown.Item href="/CfMajor">Cb Major</NavDropdown.Item>
+      <NavDropdown.Item href="/GfMajor">Gb Major</NavDropdown.Item>
+      <NavDropdown.Item href="/DfMajor">Db Major</NavDropdown.Item>
+      <NavDropdown.Item href="/AfMajor">Ab Major</NavDropdown.Item>
+      <NavDropdown.Item href="/EfMajor">Eb Major</NavDropdown.Item>
+      <NavDropdown.Item href="/BfMajor">Bb Major</NavDropdown.Item>
+      <NavDropdown.Item href="/FMajor">F Major</NavDropdown.Item>
+
+      {/* <NavDropdown.Divider />
+      <NavDropdown.Item eventKey="Separated link">Separated link</NavDropdown.Item> */}
     </NavDropdown>
+
+    <Nav.Item>
+      <Nav.Link eventKey="1" href="/">
+        Home
+      </Nav.Link>
+    </Nav.Item>
+
     <NavDropdown title="Minor Keys" id="nav-dropdown">
       <NavDropdown.Item href="/AMinor">A Minor</NavDropdown.Item>
       <NavDropdown.Item href="/EMinor">E Minor</NavDropdown.Item>

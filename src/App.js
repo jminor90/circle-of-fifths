@@ -3,17 +3,25 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import AppContainer from './components/AppContainer'
 import Homepage from './pages/Homepage'
-import A_Page from './pages/A-Page'
-import B_Page from './pages/B-Page'
-import C_Page from './pages/C-Page'
-import GMajor from './pages/GMajor'
-import DMajor from './pages/DMajor';
-import AMajor from './pages/AMajor';
-import EMajor from './pages/EMajor';
-import BMajor from './pages/BMajor';
-import FsMajor from './pages/FsMajor';
-import CsMajor from './pages/CsMajor';
+import CMajor from './pages/Major/CMajor';
+import GMajor from './pages/Major/GMajor'
+import DMajor from './pages/Major/DMajor';
+import AMajor from './pages/Major/AMajor';
+import EMajor from './pages/Major/EMajor';
+import BMajor from './pages/Major/BMajor';
+import FsMajor from './pages/Major/FsMajor';
+import CsMajor from './pages/Major/CsMajor';
+import CfMajor from './pages/Major/CfMajor';
+import GfMajor from './pages/Major/GfMajor';
+import DfMajor from './pages/Major/DfMajor';
+import AfMajor from './pages/Major/AfMajor';
+import EfMajor from './pages/Major/EfMajor';
+import BfMajor from './pages/Major/BfMajor';
+import FMajor from './pages/Major/FMajor';
 
+
+import AMinor from './pages/Minor/AMinor';
+import EMinor from './pages/Minor/EMinor';
 
 function App() {
   return (
@@ -21,9 +29,7 @@ function App() {
       <Routes>
         <Route path ="" element={<AppContainer/>}>
           <Route index element={<Homepage />} />
-          <Route path="/A" element={<A_Page />} />
-          <Route path="/B" element={<B_Page />} />
-          <Route path="/C" element={<C_Page />} />
+          <Route path="/CMajor" element={<CMajor />} />
           <Route path="/GMajor" element={<GMajor />} />
           <Route path="/DMajor" element={<DMajor />} />
           <Route path="/AMajor" element={<AMajor />} />
@@ -31,6 +37,16 @@ function App() {
           <Route path="/BMajor" element={<BMajor />} />
           <Route path="/FsMajor" element={<FsMajor />} />
           <Route path="/CsMajor" element={<CsMajor />} />
+          <Route path="/CfMajor" element={<CfMajor />} />
+          <Route path="/GfMajor" element={<GfMajor />} />
+          <Route path="/DfMajor" element={<DfMajor />} />
+          <Route path="/AfMajor" element={<AfMajor />} />
+          <Route path="/EfMajor" element={<EfMajor />} />
+          <Route path="/BfMajor" element={<BfMajor />} />
+          <Route path="/FMajor" element={<FMajor />} />
+
+          <Route path="/AMinor" element={<AMinor />} />
+          <Route path="/EMinor" element={<EMinor />} />
         </Route>
 
       </Routes> 

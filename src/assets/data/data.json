@@ -1,60 +1,110 @@
-{
+{ 
   "major": [
     {
       "key": "C",
       "accidentals": 0,
-      "isSharp": false,
-      "isFlat": false,
+			"accExpr": 0,
       "relativeMinor": "A"
     },
     {
       "key": "G",
       "accidentals": 1,
-      "isSharp": true,
-      "isFlat": false,
+			"accExpr": 1,
       "relativeMinor": "E"
     },
     {
       "key": "D",
       "accidentals": 2,
-      "isSharp": true,
-      "isFlat": false,
+			"accExpr": 1,
       "relativeMinor": "B"
     },
     {
       "key": "A",
       "accidentals": 3,
-      "isSharp": true,
-      "isFlat": false,
+			"accExpr": 1,
       "relativeMinor": "F#"
     },
     {
       "key": "E",
       "accidentals": 4,
-      "isSharp": true,
-      "isFlat": false,
+			"accExpr": 1,
       "relativeMinor": "C#"
     },
     {
       "key": "B",
       "accidentals": 5,
-      "isSharp": true,
-      "isFlat": false,
+			"accExpr": 1,
       "relativeMinor": "G#"
     },
     {
       "key": "F#",
       "accidentals": 6,
-      "isSharp": true,
-      "isFlat": false,
+			"accExpr": 1,
       "relativeMinor": "D#"
     },
     {
       "key": "C#",
       "accidentals": 7,
-      "isSharp": true,
-      "isFlat": false,
+			"accExpr": 1,
       "relativeMinor": "A#"
+    },
+    {
+      "key": "Cb",
+      "accidentals": 7,
+			"accExpr": 2,
+      "relativeMinor": "Ab"
+    },
+    {
+      "key": "Gb",
+      "accidentals": 6,
+			"accExpr": 2,
+      "relativeMinor": "Eb"
+    },
+    {
+      "key": "Db",
+      "accidentals": 5,
+			"accExpr": 2,
+      "relativeMinor": "Bb"
+    },
+    {
+      "key": "Ab",
+      "accidentals": 4,
+			"accExpr": 2,
+      "relativeMinor": "F"
+    },
+    {
+      "key": "Eb",
+      "accidentals": 3,
+			"accExpr": 2,
+      "relativeMinor": "C"
+    },
+    {
+      "key": "Bb",
+      "accidentals": 2,
+			"accExpr": 2,
+      "relativeMinor": "G"
+    },
+    {
+      "key": "F",
+      "accidentals": 1,
+			"accExpr": 2,
+      "relativeMinor": "D"
+    }
+
+  ],
+
+  "minor": [
+    {
+      "key": "A",
+      "accidentals": 0,
+      "accExpr": 0,
+      "relativeMajor": "C"
+    },
+    {
+      "key": "E",
+      "accidentals": 1,
+      "accExpr": 1,
+      "relativeMajor": "G"
     }
   ]
 }
