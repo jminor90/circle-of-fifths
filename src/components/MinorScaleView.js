@@ -11,7 +11,7 @@ export default function MinorScaleView(props) {
   let key = data.minor[i].key
   let accidentals = data.minor[i].accidentals
   let accExpr = data.minor[i].accExpr
-  let relative = data.minor[i].relativeMinor
+  let relative = data.minor[i].relativeMajor
 
   return (
     <>
