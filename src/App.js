@@ -22,6 +22,19 @@ import FMajor from './pages/Major/FMajor';
 
 import AMinor from './pages/Minor/AMinor';
 import EMinor from './pages/Minor/EMinor';
+import BMinor from './pages/Minor/BMinor';
+import FsMinor from './pages/Minor/FsMinor';
+import CsMinor from './pages/Minor/CsMinor';
+import GsMinor from './pages/Minor/GsMinor';
+import DsMinor from './pages/Minor/DsMinor';
+import AsMinor from './pages/Minor/AsMinor';
+import AfMinor from './pages/Minor/AfMinor';
+import EfMinor from './pages/Minor/EfMinor';
+import BfMinor from './pages/Minor/BfMinor';
+import FMinor from './pages/Minor/Fminor';
+import CMinor from './pages/Minor/Cminor';
+import GMinor from './pages/Minor/GMinor';
+import DMinor from './pages/Minor/DMinor';
 
 function App() {
   return (
@@ -47,6 +60,19 @@ function App() {
 
           <Route path="/AMinor" element={<AMinor />} />
           <Route path="/EMinor" element={<EMinor />} />
+          <Route path="/BMinor" element={<BMinor />} />
+          <Route path="/FsMinor" element={<FsMinor />} />
+          <Route path="/CsMinor" element={<CsMinor />} />
+          <Route path="/GsMinor" element={<GsMinor />} />
+          <Route path="/DsMinor" element={<DsMinor />} />
+          <Route path="/AsMinor" element={<AsMinor />} />
+          <Route path="/AfMinor" element={<AfMinor />} />
+          <Route path="/EfMinor" element={<EfMinor />} />
+          <Route path="/BfMinor" element={<BfMinor />} />
+          <Route path="/FMinor" element={<FMinor />} />
+          <Route path="/CMinor" element={<CMinor />} />
+          <Route path="/GMinor" element={<GMinor />} />
+          <Route path="/DMinor" element={<DMinor />} />
         </Route>
 
       </Routes> 

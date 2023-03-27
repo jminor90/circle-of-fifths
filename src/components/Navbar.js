@@ -56,6 +56,19 @@ export default function Navbar() {
     <NavDropdown title="Minor Keys" id="nav-dropdown">
       <NavDropdown.Item href="/AMinor">A Minor</NavDropdown.Item>
       <NavDropdown.Item href="/EMinor">E Minor</NavDropdown.Item>
+      <NavDropdown.Item href="/BMinor">B Minor</NavDropdown.Item>
+      <NavDropdown.Item href="/FsMinor">F# Minor</NavDropdown.Item>
+      <NavDropdown.Item href="/CsMinor">C# Minor</NavDropdown.Item>
+      <NavDropdown.Item href="/GsMinor">G# Minor</NavDropdown.Item>
+      <NavDropdown.Item href="/DsMinor">D# Minor</NavDropdown.Item>
+      <NavDropdown.Item href="/AsMinor">A# Minor</NavDropdown.Item>
+      <NavDropdown.Item href="/AfMinor">Ab Minor</NavDropdown.Item>
+      <NavDropdown.Item href="/EfMinor">Eb Minor</NavDropdown.Item>
+      <NavDropdown.Item href="/BfMinor">Bb Minor</NavDropdown.Item>
+      <NavDropdown.Item href="/FMinor">F Minor</NavDropdown.Item>
+      <NavDropdown.Item href="/CMinor">C Minor</NavDropdown.Item>
+      <NavDropdown.Item href="/GMinor">G Minor</NavDropdown.Item>
+      <NavDropdown.Item href="/DMinor">D Minor</NavDropdown.Item>
     </NavDropdown>
   </Nav>
 

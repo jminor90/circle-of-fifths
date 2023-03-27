@@ -105,6 +105,84 @@
       "accidentals": 1,
       "accExpr": 1,
       "relativeMajor": "G"
+    },
+    {
+      "key": "B",
+      "accidentals": 2,
+      "accExpr": 1,
+      "relativeMajor": "D"
+    },
+    {
+      "key": "F#",
+      "accidentals": 3,
+      "accExpr": 1,
+      "relativeMajor": "A"
+    },
+    {
+      "key": "C#",
+      "accidentals": 4,
+      "accExpr": 1,
+      "relativeMajor": "E"
+    },
+    {
+      "key": "G#",
+      "accidentals": 5,
+      "accExpr": 1,
+      "relativeMajor": "B"
+    },
+    {
+      "key": "D#",
+      "accidentals": 6,
+      "accExpr": 1,
+      "relativeMajor": "F#"
+    },
+    {
+      "key": "A#",
+      "accidentals": 7,
+      "accExpr": 1,
+      "relativeMajor": "C#"
+    },
+    {
+      "key": "Ab",
+      "accidentals": 7,
+      "accExpr": 2,
+      "relativeMajor": "Cb"
+    },
+    {
+      "key": "Eb",
+      "accidentals": 6,
+      "accExpr": 2,
+      "relativeMajor": "Gb"
+    },
+    {
+      "key": "Bb",
+      "accidentals": 5,
+      "accExpr": 2,
+      "relativeMajor": "Db"
+    },
+    {
+      "key": "F",
+      "accidentals": 4,
+      "accExpr": 2,
+      "relativeMajor": "Ab"
+    },
+    {
+      "key": "C",
+      "accidentals": 3,
+      "accExpr": 2,
+      "relativeMajor": "Eb"
+    },
+    {
+      "key": "G",
+      "accidentals": 2,
+      "accExpr": 2,
+      "relativeMajor": "Bb"
+    },
+    {
+      "key": "D",
+      "accidentals": 1,
+      "accExpr": 2,
+      "relativeMajor": "F"
     }
   ]
 }
