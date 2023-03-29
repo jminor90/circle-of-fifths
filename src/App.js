@@ -42,7 +42,7 @@ function App() {
       <Routes>
         <Route path ="/circle-of-fifths" element={<AppContainer/>}>
           <Route index element={<Homepage />} />
-          <Route path="/circle-of-fifths/CMajor" element={<CMajor />} />
+          <Route path="/CMajor" element={<CMajor />} />
           <Route path="/GMajor" element={<GMajor />} />
           <Route path="/DMajor" element={<DMajor />} />
           <Route path="/AMajor" element={<AMajor />} />
