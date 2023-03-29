@@ -40,9 +40,9 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path ="" element={<AppContainer/>}>
+        <Route path ="circle-of-fifths/" element={<AppContainer/>}>
           <Route index element={<Homepage />} />
-          <Route path="/CMajor" element={<CMajor />} />
+          <Route path="circle-of-fifths/CMajor" element={<CMajor />} />
           <Route path="/GMajor" element={<GMajor />} />
           <Route path="/DMajor" element={<DMajor />} />
           <Route path="/AMajor" element={<AMajor />} />
