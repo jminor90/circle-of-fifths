@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/circle-of-fifths/static/css/main.04b7007d.css",
-    "main.js": "/circle-of-fifths/static/js/main.7f1d6b7e.js",
+    "main.js": "/circle-of-fifths/static/js/main.bb74a54b.js",
     "static/media/logo.svg": "/circle-of-fifths/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/circle-of-fifths/index.html",
     "main.04b7007d.css.map": "/circle-of-fifths/static/css/main.04b7007d.css.map",
-    "main.7f1d6b7e.js.map": "/circle-of-fifths/static/js/main.7f1d6b7e.js.map"
+    "main.bb74a54b.js.map": "/circle-of-fifths/static/js/main.bb74a54b.js.map"
   },
   "entrypoints": [
     "static/css/main.04b7007d.css",
-    "static/js/main.7f1d6b7e.js"
+    "static/js/main.bb74a54b.js"
   ]
 }
