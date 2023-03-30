@@ -27,48 +27,48 @@ export default function Navbar() {
     <NavDropdown title="Major Keys" id="nav-dropdown">
       {/* <NavDropdown.Item href="/A">A</NavDropdown.Item>
       <NavDropdown.Item href="/B">B</NavDropdown.Item> */}
-      <NavDropdown.Item href="/CMajor">C Major</NavDropdown.Item>
-      <NavDropdown.Item href="/GMajor">G Major</NavDropdown.Item>
-      <NavDropdown.Item href="/DMajor">D Major</NavDropdown.Item>
-      <NavDropdown.Item href="/AMajor">A Major</NavDropdown.Item>
-      <NavDropdown.Item href="/EMajor">E Major</NavDropdown.Item>
-      <NavDropdown.Item href="/BMajor">B Major</NavDropdown.Item>
-      <NavDropdown.Item href="/FsMajor">F# Major</NavDropdown.Item>
-      <NavDropdown.Item href="/CsMajor">C# Major</NavDropdown.Item>
-      <NavDropdown.Item href="/CfMajor">Cb Major</NavDropdown.Item>
-      <NavDropdown.Item href="/GfMajor">Gb Major</NavDropdown.Item>
-      <NavDropdown.Item href="/DfMajor">Db Major</NavDropdown.Item>
-      <NavDropdown.Item href="/AfMajor">Ab Major</NavDropdown.Item>
-      <NavDropdown.Item href="/EfMajor">Eb Major</NavDropdown.Item>
-      <NavDropdown.Item href="/BfMajor">Bb Major</NavDropdown.Item>
-      <NavDropdown.Item href="/FMajor">F Major</NavDropdown.Item>
+      <NavDropdown.Item ><Link to ="/CMajor">C Major</Link></NavDropdown.Item>
+      <NavDropdown.Item ><Link to ="/GMajor">G Major</Link></NavDropdown.Item>
+      <NavDropdown.Item ><Link to ="/DMajor">D Major</Link></NavDropdown.Item>
+      <NavDropdown.Item ><Link to ="/AMajor">A Major</Link></NavDropdown.Item>
+      <NavDropdown.Item ><Link to ="/EMajor">E Major</Link></NavDropdown.Item>
+      <NavDropdown.Item ><Link to ="/BMajor">B Major</Link></NavDropdown.Item>
+      <NavDropdown.Item ><Link to ="/FsMajor">F# Major</Link></NavDropdown.Item>
+      <NavDropdown.Item ><Link to ="/CsMajor">C# Major</Link></NavDropdown.Item>
+      <NavDropdown.Item ><Link to ="/CfMajor">Cb Major</Link></NavDropdown.Item>
+      <NavDropdown.Item ><Link to ="/GfMajor">Gb Major</Link></NavDropdown.Item>
+      <NavDropdown.Item ><Link to ="/DfMajor">Db Major</Link></NavDropdown.Item>
+      <NavDropdown.Item ><Link to ="/AfMajor">Ab Major</Link></NavDropdown.Item>
+      <NavDropdown.Item ><Link to ="/EfMajor">Eb Major</Link></NavDropdown.Item>
+      <NavDropdown.Item ><Link to ="/BfMajor">Bb Major</Link></NavDropdown.Item>
+      <NavDropdown.Item ><Link to ="/FMajor">F Major</Link></NavDropdown.Item>
 
       {/* <NavDropdown.Divider />
       <NavDropdown.Item eventKey="Separated link">Separated link</NavDropdown.Item> */}
     </NavDropdown>
 
     <Nav.Item>
-      <Nav.Link eventKey="1" href="/">
+      <Nav.Link eventKey="1" href="/circle-of-fifths">
         Home
       </Nav.Link>
     </Nav.Item>
-
+      
     <NavDropdown title="Minor Keys" id="nav-dropdown">
-      <NavDropdown.Item href="/AMinor">A Minor</NavDropdown.Item>
-      <NavDropdown.Item href="/EMinor">E Minor</NavDropdown.Item>
-      <NavDropdown.Item href="/BMinor">B Minor</NavDropdown.Item>
-      <NavDropdown.Item href="/FsMinor">F# Minor</NavDropdown.Item>
-      <NavDropdown.Item href="/CsMinor">C# Minor</NavDropdown.Item>
-      <NavDropdown.Item href="/GsMinor">G# Minor</NavDropdown.Item>
-      <NavDropdown.Item href="/DsMinor">D# Minor</NavDropdown.Item>
-      <NavDropdown.Item href="/AsMinor">A# Minor</NavDropdown.Item>
-      <NavDropdown.Item href="/AfMinor">Ab Minor</NavDropdown.Item>
-      <NavDropdown.Item href="/EfMinor">Eb Minor</NavDropdown.Item>
-      <NavDropdown.Item href="/BfMinor">Bb Minor</NavDropdown.Item>
-      <NavDropdown.Item href="/FMinor">F Minor</NavDropdown.Item>
-      <NavDropdown.Item href="/CMinor">C Minor</NavDropdown.Item>
-      <NavDropdown.Item href="/GMinor">G Minor</NavDropdown.Item>
-      <NavDropdown.Item href="/DMinor">D Minor</NavDropdown.Item>
+      <NavDropdown.Item ><Link to="/AMinor">A Minor</Link></NavDropdown.Item>
+      <NavDropdown.Item ><Link to="/EMinor">E Minor</Link></NavDropdown.Item>
+      <NavDropdown.Item ><Link to="/BMinor">B Minor</Link></NavDropdown.Item>
+      <NavDropdown.Item ><Link to="/FsMinor">F# Minor</Link></NavDropdown.Item>
+      <NavDropdown.Item ><Link to="/CsMinor">C# Minor</Link></NavDropdown.Item>
+      <NavDropdown.Item ><Link to="/GsMinor">G# Minor</Link></NavDropdown.Item>
+      <NavDropdown.Item ><Link to="/DsMinor">D# Minor</Link></NavDropdown.Item>
+      <NavDropdown.Item ><Link to="/AsMinor">A# Minor</Link></NavDropdown.Item>
+      <NavDropdown.Item ><Link to="/AfMinor">Ab Minor</Link></NavDropdown.Item>
+      <NavDropdown.Item ><Link to="/EfMinor">Eb Minor</Link></NavDropdown.Item>
+      <NavDropdown.Item ><Link to="/BfMinor">Bb Minor</Link></NavDropdown.Item>
+      <NavDropdown.Item ><Link to="/FMinor">F Minor</Link></NavDropdown.Item>
+      <NavDropdown.Item ><Link to="/CMinor">C Minor</Link></NavDropdown.Item>
+      <NavDropdown.Item ><Link to="/GMinor">G Minor</Link></NavDropdown.Item>
+      <NavDropdown.Item ><Link to="/DMinor">D Minor</Link></NavDropdown.Item>
     </NavDropdown>
   </Nav>
 

@@ -40,7 +40,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path ="/circle-of-fifths" element={<AppContainer/>}>
+        <Route path ="/" element={<AppContainer/>}>
           <Route index element={<Homepage />} />
           <Route path="/CMajor" element={<CMajor />} />
           <Route path="/GMajor" element={<GMajor />} />
