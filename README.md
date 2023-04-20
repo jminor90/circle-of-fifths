@@ -38,7 +38,7 @@ It starts with the "back-bone" of the whole application ```data.json``` Here is 
     {
       "key": "D",
       "accidentals": 2,
-			"accExpr": 1,
+      "accExpr": 1,
       "relativeMinor": "B"
     }
   ]
