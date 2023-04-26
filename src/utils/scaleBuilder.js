@@ -1,6 +1,7 @@
 export default function scaleBuilder (keyVar, accNum, accExpr) {
   // Takes in the Key and removes # or b from it so we can build a scale
   let key = keyVar;
+  // .replace(/[^A-Z\.]+/g, "") filters out anything that isn't a letter
   key = key.replace(/[^A-Z\.]+/g, "");
 
   //All scales are alphabetical; this loop will start building a scale starting with the Key given
