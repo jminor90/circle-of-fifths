@@ -23,15 +23,15 @@ export default function scalePlayer(scale) {
   if ( scaleNumbered[0] === scaleNumbered[7] ) {
     // .replace(/[^0-9\.]+/g, "") filters out anything that isn't a letter
     let octave = scaleNumbered[0].replace(/[^0-9\.]+/g, "")
-    let keyLetter = scaleNumbered[0].replace(/[^A-Z\.]+/g, "")
-    //note for later - this doesn't work perfectly with keys that start with accidental, such as F# and Bb...will work on this later.
+    // .replace(/\d+$/, "") removes any trailing numbers so that the Key note and any accidentals aren't affected
+    let keyLetter = scaleNumbered[0].replace(/\d+$/, "")
+
     let upOctave = parseInt(octave) +1
     toString(upOctave)
     let octaveResult = keyLetter + upOctave
     scaleNumbered.splice(7,1)
     scaleNumbered.push(octaveResult)
   }
-
 
   toneJS(scaleNumbered)
 }

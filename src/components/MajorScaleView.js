@@ -35,7 +35,7 @@ export default function MajorScaleView(props) {
       <p>Key: {key}</p>
       <p>Relative Minor: {relative}</p>
       <p># of Accidentals: {accidentals}</p>
-      <p>Scale: {scaleBuilder(key, accidentals, accExpr)}</p>
+      <p>Scale: {scale}</p>
 
       <button onClick={playEvent} id="play-btn">Play Scale</button>
       <button onClick={stopEvent}id="stop-btn">Stop</button>
